@@ -24,10 +24,10 @@ defaults:
   # for posts
   - scope:
       # to separate language posts folders
-      path: "_posts"
+      path: ""
     values:
       layout: "post"
-      permalink: /:path
+      permalink: /:title/
 
   # for multilingual posts
   - scope:
